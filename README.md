@@ -16,7 +16,7 @@ This collection of bash scripts is from *nix way of doing things without any thi
 
 1. ✅ **Application status checker**
 
-Script used for checking if a tool is installed or not. When script is checking for the package designated for the application that we search for and then it is checked if that package is installed or not and also the version of that package.READM
+Script used for checking if a tool is installed or not. When script is checking for the package designated for the application that we search for and then it is checked if that package is installed or not and also the version of that package.
 
 * [X]  All tools that we searched for are installed
 

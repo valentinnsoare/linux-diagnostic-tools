@@ -8,9 +8,9 @@ This collection of bash scripts is from *nix way of doing things without any thi
 
 ### :books: Scripts included in the collection:
 
-1. [X]  app_status_checker - Application status checker if an app is installed or not. Tool is made to run from a CLI but with graphical aspects in mind;
-2. [X]  enhanced_watch - Enhanced Watch a replica with improvements of "watch" tool from linux. Multiple commands can be executed at the same time;
-3. [X]  exec_diagnostic_linux_os - Execute Diagnostic Linux OS performance commands like vmstat, iostat, etc;
+1. [x] app_status_checker - Application status checker if an app is installed or not. Tool is made to run from a CLI but with graphical aspects in mind;
+2. [x] enhanced_watch - Enhanced Watch a replica with improvements of "watch" tool from linux. Multiple commands can be executed at the same time;
+3. [x] exec_diagnostic_linux_os - Execute Diagnostic Linux OS performance commands like vmstat, iostat, etc;
 
 ### 🔖 **Collection of scripts**
 
@@ -18,13 +18,13 @@ This collection of bash scripts is from *nix way of doing things without any thi
 
 Script used for checking if a tool is installed or not. When script is checking for the package designated for the application that we search for and then it is checked if that package is installed or not and also the version of that package.
 
-* [X]  All tools that we searched for are installed
+* [x] All tools that we searched for are installed
 
 ![](readmecontent/AllToolsInstalled.png)
 
 <br>
 
-* [X]  Not all tools are installedREADME
+* [x] Not all tools are installedREADME
 
 ![](readmecontent/NotAllToolsInstalled.png)
 
@@ -34,8 +34,25 @@ Script used for checking if a tool is installed or not. When script is checking 
 
 This is a "watch" tool from Linux replica but with more features and an interactive way of working with this script.
 
+* [x] Help output in case the command is executed in a wrong way.
+
+![](readmecontent/helpPageEnhanced.png)
+
+<br>
+
+* [x] How to execute the command, an example.
+
+![](readmecontent/commandExec.png)
+
+<br>
+
+* [x] Enhanced Watch command in execution.
+
+![](readmecontent/watchCommand.png)
+
 <br>
 
 3. 👨‍💻 Execute Diagnostic Linux OS
 
 A script for executing several commands for performance checking and presenting the result in a nicely fashion. Also interaction with this script is dinamic, from a menu. Also loading the script effect is in place when starting it.
+

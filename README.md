@@ -12,10 +12,7 @@ This collection of bash scripts is from *nix way of doing things without any thi
 2. [x] enhanced_watch - Enhanced Watch a replica with improvements of "watch" tool from linux. Multiple commands can be executed at the same time;
 3. [x] exec_diagnostic_linux_os - Execute Diagnostic Linux OS performance commands like vmstat, iostat, etc;
 
-
-
 ### 🔖 **Collection of scripts**
-
 
 1. ✅ **Application status checker**
 
@@ -23,13 +20,13 @@ Script used for checking if a tool is installed or not. When script is checking 
 
 * [x] All tools that we searched for are installed
 
-![](readmecontent/allToolsAreInstalledAppStatusChecker.png)
+![](readmecontent/allToolsInstalled.png)
 
 <br>
 
-* [x] Not all tools are installed
+* [x] Not all tools are installedREADME
 
-![](readmecontent/allToolsAreNotInstalledAppStatusChecker.png)
+![](readmecontent/NotAllToolsInstalled.png)
 
 <br>
 

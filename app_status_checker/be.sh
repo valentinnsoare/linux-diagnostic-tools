@@ -105,7 +105,7 @@ exec_search() {
                 find_package_complete "${i}" "${i}"
             fi
         else
-            printf "|\e[31m %-9s\e[0m| \e[31m%-14s\e[0m| %-27s| %-27s %s\n" "✘" "${i}" "not installed" "none" "|"
+            printf "|\e[31m %-9s\e[0m| \e[31m%-14s\e[0m| %-32s| %-27s %s\n" "✘" "${i}" "not installed" "none" "|"
             ((not_installed++))
         fi
     done

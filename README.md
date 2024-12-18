@@ -20,7 +20,7 @@ Script used for checking if a tool is installed or not. When script is checking 
 
 * [x] All tools that we searched for are installed
 
-![](readmecontent/allToolsInstalled.png)
+![](readmecontent/Anew llToolsInstalled.png)
 
 <br>
 

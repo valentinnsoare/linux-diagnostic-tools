@@ -1,93 +1,97 @@
-# linux-diagnostic-tools
+## 🐧 Linux Diagnostic Tools
 
+**Welcome to the Linux Diagnostic Tools repository!** 🎉
 
+This collection of bash scripts is from *nix way of doing things without any third party helper tool and it's a go-to solution for diagnosing performance issues on Linux systems. Whether you're a devops engineer, developer, or tech enthusiast, these scripts from the world of layer 3 OS support will help you optimize your system's performance. ⚙️💻
 
-## Getting started
+![Static Badge](https://img.shields.io/badge/linux%20diagnostic%20tools%20-%20checking%20for%20performance%20issues%20-%20green?style=flat-square&logo=linux&logoColor=white&labelColor=orange)
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+### 📚 Scripts included in the collection:
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+1. [x] app_status_checker - Application status checker if an app is installed or not. Tool is made to run from a CLI but with graphical aspects in mind;
+2. [x] enhanced_watch - Enhanced Watch a replica with improvements of "watch" tool from linux. Multiple commands can be executed at the same time;
+3. [x] exec_diagnostic_linux_os - Execute Diagnostic Linux OS performance commands like vmstat, iostat, etc;
 
-## Add your files
+### 🔖 **Collection of scripts**
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+1. ✅ **Application status checker**
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/vsoare/linux-diagnostic-tools.git
-git branch -M main
-git push -uf origin main
-```
+Script used for checking if a tool is installed or not. When script is checking for the package designated for the application that we search for and then it is checked if that package is installed or not and also the version of that package.
 
-## Integrate with your tools
+* [x] All tools that we searched for are installed
 
-- [ ] [Set up project integrations](https://gitlab.com/vsoare/linux-diagnostic-tools/-/settings/integrations)
+![](readmecontent/AllToolsInstalled.png)
 
-## Collaborate with your team
+<br>
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+* [x] Not all tools are installedREADME
 
-## Test and Deploy
+![](readmecontent/NotAllToolsInstalled.png)
 
-Use the built-in continuous integration in GitLab.
+<br>
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+2. 👀️ **Enhanced Watch**
 
-***
+This is a "watch" tool from Linux replica but with more features and an interactive way of working with this script.
 
-# Editing this README
+* [x] Help output in case the command is executed in a wrong way.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+![](readmecontent/helpPageEnhanced.png)
 
-## Suggestions for a good README
+<br>
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+* [x] How to execute the command, an example.
 
-## Name
-Choose a self-explaining name for your project.
+![](readmecontent/commandExec.png)
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+<br>
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+* [x] Enhanced Watch command in execution.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+![](readmecontent/watchCommand.png)
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+<br>
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+3. 👨‍💻 Execute Diagnostic Linux OS
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+A script for executing several commands for performance checking and presenting the result in a nicely fashion. Also interaction with this script is dinamic, from a menu. Also loading the script effect is in place when starting it.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+* [x] Script directory structure
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+![](readmecontent/diag_script_images/diagScriptDirectoryStructure.png)
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+<br>
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+* [x] Loading script effect
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+![](readmecontent/diag_script_images/diagLoadingEffect.png)
 
-## License
-For open source projects, say how it is licensed.
+<br>
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+* [x] Diagnostic Liwnux OS menu
+
+![](readmecontent/diag_script_images/diagMenu.png)
+
+<br>
+
+* [x] Invalid key pressed
+
+![](readmecontent/diag_script_images/diagInvalidKey.png)
+
+<br>
+
+* [x] Exiting script
+
+![](readmecontent/diag_script_images/diagExitingScript.png)
+
+<br>
+
+[![valentinsoare - linux-diagnostic-tools](https://img.shields.io/static/v1?label=valentinnsoare&message=linux-diagnostic-tools&color=blue&logo=github)](https://github.com/valentinnsoare/linux-diagnostic-tools "Go to Github project")
+[![stars - linux-diagnostic-tools](https://img.shields.io/github/stars/valentinnsoare/linux-diagnostic-tools?style=social)](https://github.com/valentinnsoare/linux-diagnostic-tools/stargazers)
+[![forks - linux-diagnostic-tools](https://img.shields.io/github/forks/valentinnsoare/linux-diagnostic-tools?style=social)](https://github.com/valentinnsoare/linux-diagnostic-tools/forks)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+### ✉️ Contact
+
+For any inquiries, please contact me www.linkedin.com/in/valentin-soare
+
